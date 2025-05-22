@@ -32,7 +32,7 @@ class BinaryTree {
         inorder2(root->right);
     }
 
-    // Level-order
+    // Level-order traversal
     void levelOrder(node* root) 
     {
         if (!root) 
@@ -154,6 +154,7 @@ public:
         }
     }
 
+    //searching in BST
     void search(string w) 
     {
         node* ptr = root;
